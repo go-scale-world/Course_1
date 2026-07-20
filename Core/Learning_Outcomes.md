@@ -1,3 +1,5 @@
+Learning Outcomes of the Course are
+
 - Students will be able to identify business problems where agentic AI is the right fit, and distinguish them from cases that only need a simple automation or chatbot flow.
 
 - Students will be able to design agent workflows with clear reasoning, task steps, and decision logic so the system knows what to do and when to do it.
