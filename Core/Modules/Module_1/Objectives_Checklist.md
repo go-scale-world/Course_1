@@ -1,3 +1,10 @@
 # Module 1 — Objectives Checklist
 
-Rough idea of what goes here: the explicit list of what a student should be able to do after this module, written as checkable items. Doubles as a completion gate and as an input into the course-wide `Assessments/README.md`.
+Generic outcome checklist for Module 1, drawn from its Topics list in `Curriculumdetailed.md`.
+
+- [ ] Students will be able to distinguish agentic AI systems from generative AI and traditional automation, and judge when each is the right fit.
+- [ ] Students will be able to evaluate real-world business problems and determine whether they are strong candidates for an agentic AI solution.
+- [ ] Students will be able to design prompts that reliably extract structured information from messy, real-world input.
+- [ ] Students will be able to enforce schema-validated structured output from a model on every request.
+- [ ] Students will be able to build a persistence layer that stores model outputs with full traceability across processing stages.
+

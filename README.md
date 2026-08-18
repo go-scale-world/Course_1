@@ -7,9 +7,9 @@ This repo has all the docs for the Agentic AI on GCP course. It has two main par
 Stores the fixed parts of the course, the ones that don't change per cohort.
 
 - `Standard_Operating_Playbook.md` — the repeatable checklist for launching and running any cohort.
-- `Curriculum.md` — the full week-by-week course plan (EPR Agentic AI, condensed to 6 weeks).
+- `Curriculum.md` — the full week-by-week course plan (EPR Agentic AI, 8-week plan).
 - `Learning_Outcomes.md` — the terminal outcomes students should hit by course end.
-- `Modules/` — the single canonical copy of all 6 weekly modules. Each `Module_N/` has its own `README.md` (title + description), an `Objectives_Checklist.md`, and separate `Instructor/` and `Student/` subfolders so content doesn't mix audiences.
+- `Modules/` — the single canonical copy of all 8 weekly modules. Each `Module_N/` has its own `README.md` (title + description), an `Objectives_Checklist.md`, and separate `Instructor/` and `Student/` subfolders so content doesn't mix audiences.
 
 ## Blueprints/
 
@@ -35,46 +35,43 @@ Old cohort files and outdated docs, kept for reference.
 
 ## Project Structure — Bird's Eye View
 
-A full map of every file currently in this repo, one line each, for quick orientation.
+A full map of every tracked file currently in this repo, one line each, for quick orientation. Gitignored paths such as `Curriculumdetailed.md`, `temp.md`, `Project/`, and Office docs are excluded.
 
 ```
 Course_1/
 ├── README.md                                          — repo overview, folder guide, and structure map
-├── .gitignore                                          — currently empty, no excluded paths right now
+├── .gitignore                                         — current ignore rules
 │
-├── Core/                                                — fixed course material, same across every cohort
+├── Core/                                              — fixed course material, same across cohorts
 │   ├── README.md                                       — what Core/ holds, one line each
 │   ├── Standard_Operating_Playbook.md                  — repeatable checklist for launching and running cohorts
-│   ├── Curriculum.md                                   — full 6-week plan, skills table, milestones
+│   ├── Curriculum.md                                   — full course plan and module overview
 │   ├── Learning_Outcomes.md                            — terminal outcomes students should reach by course end
-│   └── Modules/                                         — canonical single copy of all weekly modules
-│       ├── README.md                                   — index of all 6 modules with topics
-│       ├── Module_1/README.md                          — Week 1 topic: agentic AI foundations, intro
-│       ├── Module_1/Objectives_Checklist.md            — checkable list of what students master weekly
-│       ├── Module_1/Instructor/README.md               — placeholder for instructor-facing lesson materials
-│       ├── Module_1/Student/README.md                  — placeholder for student-facing readings and exercises
-│       └── Module_2/ ... Module_6/                     — same 4-file shape, one folder per week
+│   ├── Modules/                                        — canonical collection of weekly module content
+│   │   ├── README.md                                   — index of modules and topics
+│   │   ├── Module_1/                                   — week 1 module content
+│   │   ├── Module_2/                                   — week 2 module content
+│   │   ├── Module_3/                                   — week 3 module content
+│   │   ├── Module_4/                                   — week 4 module content
+│   │   ├── Module_5/                                   — week 5 module content
+│   │   └── Module_6/                                   — week 6 module content
 │
-├── Blueprints/                                          — cross-functional planning docs: product, GTM, finance, infra
+├── Blueprints/                                        — planning docs: product, GTM, finance, infrastructure
 │   ├── Course_Master_Blueprint.md                      — master plan: curriculum, GTM, pricing, sign-offs
 │   ├── Infrastructure_Environment_Specification.md     — GCP lab spec: tooling, datasets, compute, cost
 │   └── Launch_Distribution_Brief.md                    — GTM brief: pitch, launch date, campaign copy
 │
-├── Cohorts/                                             — one folder per delivered batch
-│   ├── README.md                                       — what a cohort folder holds
-│   └── 2027-C1/                                         — first 2027 cohort's planning and execution
-│       ├── README.md                                   — scope of this cohort's planning and execution
-│       ├── Marketing/README.md                         — this cohort's campaign plan and budget
-│       ├── Budget.md                                   — full cohort finance: campaign spend plus P&L
+├── Cohorts/                                           — one folder per delivered batch
+│   ├── README.md                                       — what a cohort folder contains
+│   └── 2027-C1/                                       — first 2027 cohort's planning and execution
+│       ├── README.md                                   — scope and structure for this cohort
+│       ├── Marketing/README.md                         — campaign plan and admissions/promotions notes
+│       ├── Budget.md                                   — cohort finance, campaign spend, and P&L
 │       ├── Students.md                                 — admissions, onboarding, progress, and feedback tracking
 │       ├── Operations.md                               — schedules, faculty, and day-to-day logistics
-│       └── Content_Updates.md                          — summary of what changed versus Core this cohort
+│       └── Content_Updates.md                          — summary of what changed versus Core
 │
-├── Archive/
-│   └── README.md                                       — purpose of the archive, kept for reference
-│
-└── Course_Meta/                                         — process artifacts from building this repo
-    ├── README.md                                       — what Course_Meta/ holds and why
-    └── prompt_log.md                                   — running log of every conversation used to build this
+├── Archive/                                           — old or superseded docs and cohort files, kept for reference
+└── (no Course_Meta/ root folder in this branch)        — Course_Meta is not present at the repository root
 ```
-#
+
