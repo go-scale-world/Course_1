@@ -1,5 +1,6 @@
-# Launch & Distribution Brief: [Course Name]
-**Status:** DRAFT | Confirmed by Shrish: [pending / date]
+# Launch & Distribution Brief
+
+(Outdated plan never executed)
 
 ## 1. GTM Copy Assets
 
