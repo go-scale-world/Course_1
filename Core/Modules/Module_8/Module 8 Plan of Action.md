@@ -67,3 +67,5 @@ By the end of Module 8, every student should have:
 - A detailed project report of maximum 20 pages.
 - A recorded running project demo video.
 - All final deliverables submitted and checked.
+
+if either of the given is not accomplished on time, Students will continue working on it in an extended manner.
