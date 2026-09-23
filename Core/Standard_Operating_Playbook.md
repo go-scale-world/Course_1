@@ -5,8 +5,8 @@
 # Standard Operating Playbook
 ## Course Operations Manual
 
-**Course Name:** [TBD]
-**Course Launch Date:** 10/08/26
+**Course Name:** Agentic AI course on enterprsie stack
+**Course Launch Date:** 15/08/26
 
 ---
 
@@ -25,16 +25,11 @@ This playbook defines how this course operates — how sessions are run, how mat
 
 The course content is organised into 6 modules. Each module contains three folders:
 
-**Assessment**
-- `assessment_questions` — question paper given to students
-- `assessment_answers` — answer key; strictly instructor-facing, never to be shared with students
-
 **Instructor**
 - `session_lecture_notes` — detailed notes to guide the instructor through each session
 - `slides` — presentation slides used during delivery
 
 **Students**
-- `skeleton_notes` — fill-in-the-blank guided notes handed to students at the start of each in-person session
 - `notes` — topic summary shared with students after each in-person session
 - `lab_notes` — summary of the lab session shared with students after the lab
 
@@ -53,14 +48,7 @@ The course content is organised into 6 modules. Each module contains three folde
 
 ---
 
-## 4. Assessment Protocol
-
-- Assessments are conducted after the module content has been fully delivered
-- `assessment_answers` to be shared with students after they have submitted the answers.
-
----
-
-## 5. Roles & Responsibilities
+## 4. Roles & Responsibilities
 
 - **Instructor** : (Dev Agnihotri) — delivers sessions, manages lecture notes and slides
 - **Student** — attends sessions, fills in skeleton notes during session, reviews summary notes after.

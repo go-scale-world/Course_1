@@ -8,8 +8,8 @@ Building autonomous AI agents; Enterprise AI overview; Prompt engineering; Struc
 **Week 2 — GCP Basics, Embeddings & Vector Databases along with github tool calling and agent memory**
 GCP platform fundamentals; Retrieval Augmented Generation (RAG) fundamentals; Embeddings; Vector databases; Data ingestion and indexing pipelines. GitHub-based version control workflow; Function calling; Tool use and integration; ReAct (Reasoning-Planning-Action) loop; Agent memory and state; Autonomous workflows.
 
-**Week 3 — Guardrails, Cloud Deployment & Human Review**
-Guardrails and safety controls; Prompt-injection defenses; Deployed AI agents; Agent runtime management; Cloud deployment fundamentals.
+**Week 3 — Cloud Deployment & Human Review**
+Agent runtime management; Cloud deployment fundamentals.
 
 **Week 4 — , Multi-Agent Architecture & Parallel Processing**
 Multi-agent systems and orchestration; Workflow orchestration (Orchestrator-Worker); Task decomposition; Handoff pattern; Parallelization pattern; Routing pattern; Agent design patterns; Reflection pattern; Plan-and-Solve pattern; Planning algorithms.
@@ -17,8 +17,14 @@ Multi-agent systems and orchestration; Workflow orchestration (Orchestrator-Work
 **Week 5 — Model Context Protocol (MCP) & Advanced RAG**
 Model Context Protocol (MCP); Context engineering; Secure tool integration; Agent Skills; MCP-based agent interactions. Agent discovery and registry; Advanced Retrieval Augmented Generation (RAG); Advanced retrieval strategies; Multi-agent knowledge sharing; Enterprise RAG architectures.
 
-**Week 6 — Agent-to-Agent Interoperability, Observability, Evaluation & Capstone**
-Agent-to-Agent (A2A) protocol; AgentOps, monitoring, observability and tracing; Agent runtime management; Deployed/autonomous AI agents; Autonomous workflows; Business process automation; Evaluation and benchmarking; Evaluator-optimizer pattern; Capstone project.
+**Week 6 — Guardrails, Observability, Evaluation & Capstone**
+
+Guardrails and safety controls,
+Capstone project.
+
+**Week 7 & 8 — Capstone Development**
+
+Students will work on creation and presentation part of the capstone project.
 
 ## Capabilities (by module, from each module's Objectives Checklist)
 
@@ -33,3 +39,4 @@ Agent-to-Agent (A2A) protocol; AgentOps, monitoring, observability and tracing; 
 **Module 5** — expose tools/data as standardized servers (MCP); integrate external tools and services; design granular, relevance-ranked retrieval; combine semantic and keyword retrieval; implement an agent-to-agent handoff protocol; build an agent discovery registry; package agent capabilities as reusable skills.
 
 **Module 6** — instrument a system for full observability; build a self-maintaining, failure-isolating pipeline; integrate all components into an end-to-end capstone; run a fully automated workflow; apply agentic automation to a real business process; evaluate/benchmark under load; apply an evaluator-optimizer loop.
+
