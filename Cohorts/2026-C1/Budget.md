@@ -1,8 +1,8 @@
-# Budget — 2027-C1
+# Budget — 2026-C1
 
-(**This file contains:** Rough idea of what goes here: full cohort finance in one place — marketing/campaign spend and overall cohort P&L (venue, faculty, materials, etc.). Keep clear headers separating campaign spend from full cohort finance so the two don't blur together.)
+**Canon:** Finance repository (`Cohorts/`, Execution, Retention).
 
-C1 was conducted in office, a 1000 rupee amount per head was charged during activation of students accounts on GCP, it should be notes that this amount is refundable.
+- Finance: https://github.com/go-scale-world/Finance  
+- Historical cohort Budget body archived at `Archive/2026-10-03_reorg/Budget.md` in this Program repo.
 
-Nothing addtional required as of now.
-
+This stub is link-only so Program and Finance do not maintain two P&Ls.

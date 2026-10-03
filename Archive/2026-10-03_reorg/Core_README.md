@@ -1,0 +1,3 @@
+Defines the permanent foundation of the product. Store documentation that remains consistent across all cohorts and evolves only through intentional product revisions.
+
+Rough idea of what's inside: `Curriculum.md` (the full week-by-week course plan, EPR Agentic AI, 6-week plan), `Learning_Outcomes.md` (terminal outcomes students should hit by course end), `Standard_Operating_Playbook.md` (repeatable checklist for running a cohort), and `Modules/` (the single canonical copy of all 6 weekly modules — each split into title/description, an objectives checklist, and separate instructor/student subfolders).

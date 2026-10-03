@@ -1,3 +1,18 @@
-Organize every cohort as an independent delivery cycle while preserving the shared product foundation.
+# Cohorts
 
-Rough idea of what's inside each cohort folder: `Marketing/` (campaign plan and budget for this cohort's push — leads/admissions tracked in a separate repo), `Budget.md` (full cohort finance), `Students.md` (admissions, progress, completion), `Operations.md` (faculty, venue, schedule), `Content_Updates.md` (holistic summary of what changed vs. `Core/` this cohort — curriculum, assessments, or content).
+Each cohort is an independent delivery run of this Program while `Core/` stays the shared foundation.
+
+**ID scheme:** `YYYY-CN` only. First cohort folder: **`2026-C1/`**. Do not use `cohort1`, `Cohort-1`, or `2027-C1` in new docs.
+
+## What belongs in a cohort folder (thin)
+
+| File / folder | Holds |
+|---|---|
+| Students.md | Admissions, progress, completion summary |
+| Content_Updates.md | What changed vs Core this run |
+| Operations.md | Pointer to Delivery for schedules/ops |
+| Budget.md | Pointer to Finance (not a second P&L canon) |
+| Marketing/ | Pointer to Marketing + Delivery acquisition |
+
+Canon for acquisition, student-learning growth, and feedback: **Delivery** repo.  
+Canon for money: **Finance** repo.

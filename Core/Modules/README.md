@@ -1,14 +1,18 @@
 # Modules
 
-Rough idea of what goes here: the canonical, single-copy content for all 8 weekly modules (EPR Agentic AI course, 8-week plan). This is the source of truth taught across every cohort — cohort-specific changes get logged in that cohort's `Content_Updates.md`, not forked here. Full plan: `Core/Curriculum.md`.
+Canonical, single-copy content for Agentic AI on GCP. Titles below match each `Module_N/README.md`. Cohort-specific changes go in that cohort's `Content_Updates.md`, not forks here. Full plan: `Core/Curriculum.md`.
 
-## Index
+## Week model
+
+Modules 1–6 = live taught content. Modules 7–8 = capstone stubs.
+
+## Index (synced to per-module README titles)
 
 - `Module_1/` — Agentic AI Foundations, LLM Basics & Data Pipelines
-- `Module_2/` — RAG Basics, Embeddings & Vector Databases
-- `Module_3/` — Tool Calling, Agent Memory & Human Review
-- `Module_4/` — Multi agent architecture & it's components
-- `Module_5/` — Model Context Protocol (MCP) & Advanced RAG
-- `Module_6/` — Guardrails and Observability
-- `Module_7/` — Student Capstone week 1 
-- `Module_8/` — Student Capstone week 2
+- `Module_2/` — GCP Basics, Embeddings & Vector Databases
+- `Module_3/` — GitHub, Tool Calling & Agent Memory
+- `Module_4/` — Guardrails & Cloud Deployment
+- `Module_5/` — Human Review, Multi-Agent Architecture & Parallel Processing
+- `Module_6/` — Model Context Protocol (MCP) & Advanced Guardrails
+- `Module_7/` — Student Capstone week 1 (stub)
+- `Module_8/` — Student Capstone week 2 (stub)

@@ -1,77 +1,45 @@
 # Agentic AI on GCP
 
-This repo has all the docs for the Agentic AI on GCP course. It has two main parts: `Core/`, which stays the same across cohorts, and `Cohorts/`, which holds files for each new batch. Old or replaced files go into `Archive/`. `Course_Meta/` holds process artifacts (like the prompt log) from building this repo, not course content.
+**Program** instance inside the Scale Product package.  
+**Repo name today:** `Course_1` (target rename: `program-agentic-ai-gcp` — pending org rename).  
+**Taxonomy:** [Company TAXONOMY](https://github.com/go-scale-world/Company/blob/main/Foundation/TAXONOMY.md) · [REPO_MAP](https://github.com/go-scale-world/Company/blob/main/REPO_MAP.md)
+
+This repo has two main parts: `Core/` (stable across cohorts) and `Cohorts/` (thin per-run folders with links out). Superseded files go to `Archive/`. Nothing is deleted.
+
+## Week model (locked 2026-10-03)
+
+| Slots | Status |
+|---|---|
+| Modules 1–6 | Live taught content |
+| Modules 7–8 | Capstone stubs (Plan of Action only) |
+
+Say this as: **six taught weeks plus two capstone module slots** — not “6-week” and “8-week” as if both were full curricula.
+
+Public Program name: **Agentic AI on GCP** (do not introduce EPR / Enterprise Stack / Enterprise Program as the public name in new docs).
 
 ## Core/
 
-Stores the fixed parts of the course, the ones that don't change per cohort.
+Fixed Program material.
 
-- `Standard_Operating_Playbook.md` — the repeatable checklist for launching and running any cohort.
-- `Curriculum.md` — the full week-by-week course plan (EPR Agentic AI, 8-week plan).
-- `Learning_Outcomes.md` — the terminal outcomes students should hit by course end.
-- `Modules/` — the single canonical copy of all 8 weekly modules. Each `Module_N/` has its own `README.md` (title + description), an `Objectives_Checklist.md`, and separate `Instructor/` and `Student/` subfolders so content doesn't mix audiences.
+- `Standard_Operating_Playbook.md` — launch/run checklist
+- `Curriculum.md` — week-by-week plan
+- `Learning_Outcomes.md` — terminal outcomes
+- `Modules/` — canonical Module_1…Module_8 (1–6 full; 7–8 stubs)
 
 ## Blueprints/
 
-Cross-functional planning docs spanning product, GTM, finance, and infrastructure.
-
-- `Course_Master_Blueprint.md` — master plan: curriculum outline, GTM strategy, pricing/financial controls.
-- `Infrastructure_Environment_Specification.md` — GCP lab environment spec: tooling, datasets, compute tiers, cost estimates.
-- `Launch_Distribution_Brief.md` — go-to-market brief: pitch, launch date, channels, campaign copy.
+Filled Program planning docs (templates live in Product). Master blueprint draft is in `Archive/Course_Master_Blueprint.md`. Infra and launch briefs in `Blueprints/` are historical; GTM/finance canon for new work is Marketing / Finance / Product templates — see stubs in `Cohorts/2026-C1/`.
 
 ## Cohorts/
 
-One folder per batch, e.g. `2027-C1/`. Each cohort folder has:
+One folder per batch: **`2026-C1/`** (first cohort). Each folder is thin:
 
-- `Marketing/` — campaign plan and budget for this cohort's push. Lead/admissions tracking lives in a separate repo, linked from `Marketing/README.md`.
-- `Budget.md` — full cohort finance (campaign spend + overall P&L).
-- `Students.md` — admissions, onboarding, progress, and feedback.
-- `Operations.md` — schedules, faculty, and day-to-day logistics.
-- `Content_Updates.md` — holistic summary of what changed vs. `Core/` for this cohort (curriculum, assessments, or module content).
+- `Students.md` — admissions/progress summary
+- `Content_Updates.md` — deltas vs Core
+- `Operations.md` — link to Delivery
+- `Budget.md` — stub linking Finance
+- `Marketing/` — stub linking Marketing + Delivery acquisition
 
 ## Archive/
 
-Old cohort files and outdated docs, kept for reference.
-
-## Project Structure — Bird's Eye View
-
-A full map of every tracked file currently in this repo, one line each, for quick orientation. Gitignored paths such as `Curriculumdetailed.md`, `temp.md`, `Project/`, and Office docs are excluded.
-
-```
-Course_1/
-├── README.md                                          — repo overview, folder guide, and structure map
-├── .gitignore                                         — current ignore rules
-│
-├── Core/                                              — fixed course material, same across cohorts
-│   ├── README.md                                       — what Core/ holds, one line each
-│   ├── Standard_Operating_Playbook.md                  — repeatable checklist for launching and running cohorts
-│   ├── Curriculum.md                                   — full course plan and module overview
-│   ├── Learning_Outcomes.md                            — terminal outcomes students should reach by course end
-│   ├── Modules/                                        — canonical collection of weekly module content
-│   │   ├── README.md                                   — index of modules and topics
-│   │   ├── Module_1/                                   — week 1 module content
-│   │   ├── Module_2/                                   — week 2 module content
-│   │   ├── Module_3/                                   — week 3 module content
-│   │   ├── Module_4/                                   — week 4 module content
-│   │   ├── Module_5/                                   — week 5 module content
-│   │   └── Module_6/                                   — week 6 module content
-│
-├── Blueprints/                                        — planning docs: product, GTM, finance, infrastructure
-│   ├── Course_Master_Blueprint.md                      — master plan: curriculum, GTM, pricing, sign-offs
-│   ├── Infrastructure_Environment_Specification.md     — GCP lab spec: tooling, datasets, compute, cost
-│   └── Launch_Distribution_Brief.md                    — GTM brief: pitch, launch date, campaign copy
-│
-├── Cohorts/                                           — one folder per delivered batch
-│   ├── README.md                                       — what a cohort folder contains
-│   └── 2027-C1/                                       — first 2027 cohort's planning and execution
-│       ├── README.md                                   — scope and structure for this cohort
-│       ├── Marketing/README.md                         — campaign plan and admissions/promotions notes
-│       ├── Budget.md                                   — cohort finance, campaign spend, and P&L
-│       ├── Students.md                                 — admissions, onboarding, progress, and feedback tracking
-│       ├── Operations.md                               — schedules, faculty, and day-to-day logistics
-│       └── Content_Updates.md                          — summary of what changed versus Core
-│
-├── Archive/                                           — old or superseded docs and cohort files, kept for reference
-└── (no Course_Meta/ root folder in this branch)        — Course_Meta is not present at the repository root
-```
-
+Old or replaced docs. Prefer Company Archive procedure (`YYYY-MM-DD_` + dashboard log when dashboards exist).

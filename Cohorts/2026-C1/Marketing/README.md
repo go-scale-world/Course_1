@@ -1,5 +1,8 @@
-# Marketing — 2027-C1
+# Marketing — 2026-C1
 
-Rough idea of what goes here: this cohort's campaign plan, messaging, launch activities, and budget for the marketing push. Lead and admissions tracking is handled in a separate repo, not here — link it below once set up.
+**Canon for campaigns / channels:** [Marketing](https://github.com/go-scale-world/Marketing)  
+**Canon for acquisition / Coffee Day / pipeline experiments:** [Delivery](https://github.com/go-scale-world/Delivery) `Cohorts/2026-C1/acquisition/`
 
-<link to leads/admissions repo>
+Historical cohort Marketing README archived at `Archive/2026-10-03_reorg/2026-C1_Marketing_README.md`.
+
+Do not track leads here.

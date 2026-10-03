@@ -1,3 +1,12 @@
-Defines the permanent foundation of the product. Store documentation that remains consistent across all cohorts and evolves only through intentional product revisions.
+# Core
 
-Rough idea of what's inside: `Curriculum.md` (the full week-by-week course plan, EPR Agentic AI, 6-week plan), `Learning_Outcomes.md` (terminal outcomes students should hit by course end), `Standard_Operating_Playbook.md` (repeatable checklist for running a cohort), and `Modules/` (the single canonical copy of all 6 weekly modules — each split into title/description, an objectives checklist, and separate instructor/student subfolders).
+Permanent foundation of the **Agentic AI on GCP** Program. Documentation here stays consistent across cohorts and changes only through intentional Program revisions.
+
+| File / folder | Holds |
+|---|---|
+| Curriculum.md | Week-by-week plan (Modules 1–6 live; 7–8 capstone) |
+| Learning_Outcomes.md | Terminal outcomes |
+| Standard_Operating_Playbook.md | Repeatable cohort run checklist |
+| Modules/ | Canonical Module_1…Module_8 content |
+
+This is a **Program**, not the whole Product package. Package design lives in the Product repo.
