@@ -7,7 +7,8 @@
 Computer Science undergraduate pursuing a B.Tech at Allenhouse Institute of Technology, with foundational training in Agentic AI on Google Cloud Platform. Interested in building practical AI workflows using generative AI, prompt engineering, and cloud-based tools. Currently developing skills in Python, GCP services, AI agents, and responsible AI practices, with the goal of contributing to AI-powered software and automation projects.
 
 **Projects**
-1. [https://github.com/mohdakmal3468/TAN-IX]
+1. [https://github.com/mohdakmal3468/Smart-Support-Multi-Agent]
+2. [https://github.com/mohdakmal3468/AgentHide]
 
 **Education:**  
 - Allenhouse Institute of Technology, India — B.Tech, Computer Science, 2025–2029.
@@ -34,6 +35,7 @@ Third-year B.Tech Computer Science and Engineering student with a strong interes
 
 **Projects**
 1. [https://github.com/lavi09111-ux/PERSONAPULSE/tree/main]
+2. [https://github.com/lavi09111-ux/Smart_Support_Agent]
 
 **Education:**  
 - Maharana Pratap Engineering College (MPEC), Kanpur — Computer Science. 
