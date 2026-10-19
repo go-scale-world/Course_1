@@ -170,15 +170,25 @@ Computer Science student with introductory training in Agentic AI on Google Clou
 
 ## Projects
 
-### VELOCHAIN
+### FMCG products Supply chain management system
 
-VELOCHAIN is a four-agent FMCG supply chain management system that prioritizes retail orders, allocates stock across warehouses, and manages stock transfers when shortages occur. It combines rule-based decisions with AI-generated reports and a dashboard for monitoring and reviewing operations.
+This project is a four-agent FMCG supply chain management system that prioritizes retail orders, allocates stock across warehouses, and manages stock transfers when shortages occur. It combines rule-based decisions with AI-generated reports and a dashboard for monitoring and reviewing operations.
 
 * Prioritizes customer orders and routes them to suitable warehouses based on region and available stock.
 * Identifies inventory shortages and creates stock-transfer requests from warehouses with available stock.
 * Applies approval rules for stock transfers and provides AI-assisted audits, reports, and historical incident retrieval.
 
-GitHub: https://github.com/mirzaimad18/VELOCHAIN
+GitHub: https://github.com/mirzaimad18/FMCG-SCM
+
+### Smart Support Agent
+
+Smart Support Agent is an AI-powered support ticket management system that identifies recurring issues and helps support teams investigate and prioritize them. It uses ticket analysis, historical incident retrieval, and automated workflows to support issue tracking and escalation.
+
+* Extracts important information from support tickets and searches for similar historical incidents.
+* Groups related tickets and evaluates issue severity to help identify high-priority problems.
+* Supports automated reporting and escalation workflows through integrations with cloud and communication services.
+
+GitHub: https://github.com/mohdakmal3468/Smart-Support-Multi-Agent
 
 **Education:**
 
