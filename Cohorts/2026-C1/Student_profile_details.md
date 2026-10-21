@@ -124,6 +124,16 @@ VentureLens AI is a multi-agent startup pitch screening and founder feedback sys
 
 GitHub: https://github.com/suhanikri/venturelens-ai
 
+### Smart Support Multi-Agent
+
+Smart Support Agent is an AI system that processes support tickets, identifies their main meaning, groups similar problems, and prepares important issues for escalation. It connects support tools and Google Cloud services to help support teams identify recurring problems and review their impact.
+
+* Extracts ticket details and finds similar past incidents using retrieval and embeddings.
+* Groups related tickets into problem clusters and scores their impact.
+* Integrates with Gmail, Google Drive, and Discord for support workflows and escalation
+
+GitHub: https://github.com/suhanikri/smart-support-agent
+
 **Education:**
 
 Maharana Pratap Engineering College (MPEC), Kanpur — B.Tech, Computer Science and Engineering, 2024–2028.
